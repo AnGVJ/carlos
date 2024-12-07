@@ -1,0 +1,341 @@
+body {
+    background-color: #060528;
+    margin: 0;
+    padding-left: 200px;
+}
+
+.menu {
+    background-color: #181a32;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    border-right: 1px solid #505076;
+    color: white;
+    padding: 20px;
+}
+
+.menudentro {
+    margin-top: 20px;
+}
+
+.logo {
+    width: 95%;
+    margin-left: 5%;
+}
+
+.linea {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 30px 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.item-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.icono {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.icono1 {
+    width: 28px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.icono2 {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: -7px;
+}
+
+.item-link:hover {
+    background-color: #2e2f56;
+}
+.Ayuda {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    margin-top: 11vh;
+    margin-bottom: 70px;
+    font-weight: 300;
+}
+.item-link.active {
+    background-color: #3b3d82;
+    color: white;
+}
+.navbar {
+    margin-left: auto;
+    width: 99%;
+    background-color: #181a32 !important;
+    border: none;
+    height: 70px;
+}
+
+.navbar-text {
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+.vr {
+    border-left: 1px solid white;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+.search-form {
+    margin-left: 180px; /* Ajusta el valor para moverlo más a la derecha */
+}
+
+.search-form .form-control {
+    background-color: #181a32;
+    border: 0.5px solid #ffffff31;
+    color: white;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin-top: -5px;
+    padding-left: 35px;
+}
+
+.search-form .form-control::placeholder {
+    color: #ffffff;
+}
+
+.search-form .search-icon {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #393a68;
+    font-size: 1.2em;
+}
+
+.search-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.bi-bell {
+    margin-left: -10px;
+}
+.nav-dropdown-icon {
+    width: 10px;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid white;
+    margin-left: -14vh;
+    display: inline-block;
+}
+.square-container {
+    width: 30px; /* Tamaño del cuadrado */
+    height: 30px;
+    background-color: #2f3057;
+    border-radius: 5px; /* Borde ligeramente redondeado */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px; /* Espacio a la izquierda */
+}
+
+.square-image {
+    width: 20px; /* Tamaño de la imagen dentro del cuadrado */
+    height: 20px;
+    object-fit: cover;
+    border-radius: 2px; /* Ajusta el borde redondeado de la imagen */
+}
+
+.leyenda {
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 10px; /* Espacio antes de la leyenda */
+    font-weight: 400;
+}
+
+/*MENU ATRAS*/
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.botones {
+    display: flex;
+    gap: 15px; /* Espacio entre los botones */
+}
+
+.info {
+    background-color: #181a32;
+    border: 0.5px solid #ffffff31;
+    box-shadow: 0px 10px 30px #5050767d;
+    width: 50vh; /* Tamaño deseado para cada caja */
+    height: 90px;
+    border-radius: 15px;
+}
+
+.derecha1,
+.derecha2 {
+    margin-top: 35px;
+    margin-right: 15px;
+    background-color: #181a32;
+    border: 0.5px solid #ffffff17;
+    box-shadow: 0px 10px 30px #5050767d;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+
+/* Ajustes generales para derecha2 */
+.derecha2 {
+    color: white !important; /* Forzamos el color blanco */
+    text-decoration: none !important; /* Removemos el subrayado */
+    margin-top: 35px; /* Bajamos un poco el texto */
+    display: inline-block;
+    padding-top: 5px; /* Ajuste adicional para el padding */
+    padding-bottom: 5px;
+}
+
+/* Efecto hover si se necesita, puedes ajustarlo a tus preferencias */
+.derecha2:hover {
+    color: white !important; /* Cambia el color al pasar el mouse */
+    text-decoration: none !important; /* Agrega subrayado al pasar el mouse */
+}
+
+.contenido {
+    background-color: #181a32;
+    width: 98%;
+    margin-left: 10px;
+}
+.busqueda {
+    background-color: #dddddd00;
+    height: 50px;
+    width: 97%;
+    margin-left: 20px;
+}
+.tabla {
+    width: 97%;
+    margin-left: 20px;
+}
+
+.circle {
+    width: 50px; /* Tamaño del círculo */
+    height: 50px;
+    background-color: #060528;
+    border-radius: 50%; /* Hace el div circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta el centro del círculo */
+}
+
+.circle-image {
+    width: 45px; /* Tamaño de la imagen dentro del círculo */
+    height: 45px;
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Ajusta la imagen para que se adapte al círculo */
+}
+
+.titulo {
+    margin-top: 15px;
+    margin-left: 115px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.fo {
+    margin-left: 30px;
+}
+.la {
+    margin-top: 20px;
+}
+.right-controls {
+    margin-top: -30px;
+    float: right;
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.date-filter {
+    padding: 10px; /* Espaciado en el filtro de fecha */
+    background-color: #060528;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 140px;
+    text-align: center;
+}
+.date-filter::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.input-icon {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.input-icon i {
+    position: absolute;
+    left: 10px; /* Ajusta la posición horizontal del ícono */
+    color: #ffffff; /* Cambia a blanco u otro color que desees */
+}
+
+.input-icon .date-filter {
+    padding-left: 30px; /* Ajusta el espacio a la izquierda para el ícono */
+    color: white;
+}
+
+.btn-estados,
+.btn-filtros {
+    padding: 10px 15px; /* Espaciado en los botones */
+    background-color: #060528; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+.totales {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+}

@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Añade estos estilos al archivo CSS relevante */
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 10px;
+}
+
+.user-icons {
+    display: flex;
+}
+.bgl {
+    background-color: #181a32;
+}
+
+/* Estilos generales */
+/* Estilos generales */
+body {
+    background-color: #060528 !important;
+    margin: 0;
+    padding-left: 250px; /* Asegura que el contenido no quede debajo del menú lateral */
+}
+
+/* Estilos para el menú lateral izquierdo */
+.sidebar {
+    margin-top: 5px;
+    position: fixed;
+    top: 80px; /* Ajusta esta altura según la altura de tu barra de navegación */
+    left: 0;
+    width: 200px;
+    height: calc(100vh - 60px); /* Ajusta según la altura total de tu layout */
+    background-color: #181a32; /* Color de fondo del sidebar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    z-index: 1; /* Asegura que el menú quede por debajo del contenido */
+}
+
+/* Estilo para la logo del menú lateral */
+.sidebar .logo {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para los enlaces del menú lateral */
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    width: 180px;
+    background-color: #2e2f56;
+    color: white;
+}
+
+/* Estilo para los enlaces activos */
+
+/* Estilos para el contenido del perfil */
+.profile-content {
+    position: relative;
+    z-index: 10; /* Asegura que el contenido del perfil esté encima del menú lateral */
+}
+
+/* Estilos de la información de usuario */
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 10px;
+}
+
+.user-icons {
+    display: flex;
+}
+
+/* Fondo oscuro */
+.bgl {
+    margin-left: -250px;
+    background-color: #181a32;
+}
+
+/* Estilos para los formularios de actualización de perfil y cambio de contraseña */
+.p-4,
+.sm\:p-8 {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilos adicionales */
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Estilo para el fondo de la página */
+body {
+    background-color: #060528 !important;
+    margin: 0;
+}
+/*DASHBOAR*/
+.cardis {
+    background-color: #162447;
+    border-radius: 10px;
+    height: 25vh;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #1f4068;
+}
+
+.perfilimg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cardu {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Asegura que la imagen y el texto estén centrados */
+    align-items: center;
+}
+
+#chart {
+    width: 100%; /* Ajusta el ancho del gráfico */
+    height: 100%; /* Ajusta la altura del gráfico */
+}
+.bgd {
+    background-color: #181a32;
+}
+.btn-spacing {
+    margin-right: 5px; /* Ajusta el valor a lo que necesites */
+}
+.btnimg {
+    background-image: url("herramienta.png"); /* Asegúrate que la ruta sea correcta */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.estil {
+    background-color: #060528;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+}

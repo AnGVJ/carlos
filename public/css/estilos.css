@@ -1,0 +1,128 @@
+body {
+    min-height: 95vh;
+    background-image: url("../images/fondoinicio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.font {
+    font-size: 12px;
+}
+
+.div1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #090735d0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.div3 {
+    width: 100%;
+}
+
+.input-group-text {
+    background-color: rgba(0, 255, 255, 0);
+    height: 50px;
+}
+
+/* Fondo blanco para los campos de entrada */
+.form-control {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+/* Color del texto en el placeholder */
+.form-control::placeholder {
+    color: #888888; /* Gris claro */
+    font-size: 12px; /* Ajuste del tamaño del texto */
+}
+
+/* Fondo blanco para los iconos junto a los campos */
+.input-group-text {
+    background-color: #ffffff; /* Fondo blanco para los iconos */
+    color: #000000; /* Iconos de color negro */
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+/* Estilo del botón */
+.btn-outline-light {
+    background-color: #090735d0; /* Fondo blanco para los botones */
+    color: #ffffff; /* Texto en color oscuro */
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+/* Efecto hover para el botón */
+
+/* Ajuste de la apariencia de la etiqueta de los checkboxes */
+.form-check-label {
+    font-size: 12px;
+}
+
+/* Estilo de los enlaces (como "Olvidé mi contraseña") */
+.font {
+    font-size: 12px;
+    text-decoration: underline;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 24px;
+    }
+    .h2 {
+        font-size: 10px;
+    }
+}
+.toggle-password {
+    border-left: 1px solid #000000c4;
+    padding-left: 10px;
+    margin-top: -10px;
+    color: rgba(0, 0, 0, 0.812); /* Color negro */
+    font-size: 1.2rem; /* Tamaño del ícono */
+    position: absolute; /* Para posicionarlo dentro del input */
+    right: 15px; /* Espaciado desde la derecha */
+    top: 38px; /* Espaciado desde la parte superior */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+    transition: color 0.3s ease; /* Animación para el cambio de color */
+}

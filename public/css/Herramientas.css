@@ -1,0 +1,351 @@
+body {
+    background-color: #060528;
+    margin: 0;
+    padding-left: 200px;
+}
+
+.menu {
+    background-color: #181a32;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+    border-right: 1px solid #505076;
+    color: white;
+    padding: 20px;
+}
+
+.menudentro {
+    margin-top: 20px;
+}
+
+.logo {
+    width: 95%;
+    margin-left: 5%;
+}
+
+.linea {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 30px 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.item-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.icono {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+.icono1 {
+    width: 28px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.icono2 {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-top: -7px;
+}
+
+.item-link:hover {
+    background-color: #2e2f56;
+}
+.Ayuda {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    margin-top: 11vh;
+    margin-bottom: 70px;
+    font-weight: 300;
+}
+.item-link.active {
+    background-color: #3b3d82;
+    color: white;
+}
+.navbar {
+    margin-left: auto;
+    width: 99%;
+    background-color: #181a32 !important;
+    border: none;
+    height: 70px;
+}
+
+.navbar-text {
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+.vr {
+    border-left: 1px solid white;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+.search-form .form-control {
+    background-color: #181a32;
+    border: 0.5px solid #ffffff31;
+    color: white;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin-top: -5px;
+    padding-left: 35px;
+}
+
+.search-form .form-control::placeholder {
+    color: #ffffff;
+}
+
+.search-form .search-icon {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #393a68;
+    font-size: 1.2em;
+}
+
+.search-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.bi-bell {
+    margin-left: -10px;
+}
+.nav-dropdown-icon {
+    width: 10px;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid white;
+    margin-left: -14vh;
+    display: inline-block;
+}
+.container {
+    background-color: rgba(0, 255, 255, 0);
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -0vh;
+}
+.mt-3 {
+    display: flex;
+
+    margin-left: auto;
+    width: 99%;
+}
+
+.box-1 {
+    width: 50vh; /* Tamaño deseado para cada caja */
+    height: 80px;
+    border-radius: 15px;
+    background-color: #181a32;
+    border: 0.5px solid #50507685;
+    box-shadow: 0px 10px 30px #5050767d;
+}
+.box-2 {
+    margin-right: 15px;
+    width: 50vh; /* Tamaño deseado para cada caja */
+    height: 50px;
+    border-radius: 15px;
+    background-color: #181a32;
+    border: 0.5px solid #50507685;
+    box-shadow: 0px 10px 30px #5050767d;
+}
+.tabla {
+    background-color: #181a32;
+    width: 98%;
+    height: 72vh;
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color: #181a32;
+    border: 0.5px solid #50507685;
+    box-shadow: 0px 10px 30px #5050767d;
+}
+
+.circle {
+    width: 50px; /* Tamaño del círculo */
+    height: 50px;
+    background-color: #060528;
+    border-radius: 50%; /* Hace el div circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta el centro del círculo */
+}
+
+.circle-image {
+    width: 45px; /* Tamaño de la imagen dentro del círculo */
+    height: 45px;
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Ajusta la imagen para que se adapte al círculo */
+}
+
+.titulo {
+    margin-top: 15px;
+    margin-left: 75px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.square-container {
+    width: 30px; /* Tamaño del cuadrado */
+    height: 30px;
+    background-color: #2f3057;
+    border-radius: 5px; /* Borde ligeramente redondeado */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px; /* Espacio a la izquierda */
+}
+
+.square-image {
+    width: 20px; /* Tamaño de la imagen dentro del cuadrado */
+    height: 20px;
+    object-fit: cover;
+    border-radius: 2px; /* Ajusta el borde redondeado de la imagen */
+}
+
+.leyenda {
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 10px; /* Espacio antes de la leyenda */
+    font-weight: 400;
+}
+.bi-chevron-down {
+    color: #ffffff;
+    margin-left: 25vh;
+}
+.titulo2 {
+    margin-left: 45px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.fo .co {
+    background-color: #181a32;
+    border: 0.5px solid #ffffff31;
+    color: white;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-left: 35px;
+}
+
+.fo .co::placeholder {
+    color: #ffffff;
+}
+
+.fo .search-icon {
+    position: absolute;
+    top: 45%;
+    left: 70px;
+    transform: translateY(-50%);
+    color: #393a68;
+    font-size: 1.2em;
+}
+
+.fo .co:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.divt {
+    margin-left: -560px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.custom-table {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 90%;
+    background-color: transparent; /* Asegúrate de que el fondo sea transparente */
+    border-collapse: collapse; /* Colapsa bordes para evitar espacios */
+    color: white; /* Color del texto */
+}
+
+.custom-table th,
+.custom-table td {
+    font-size: 0.9rem;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    background-color: transparent; /* Asegúrate de que las celdas sean transparentes */
+}
+
+.custom-table thead th {
+    border-bottom: 1px solid #505076df; /* Línea inferior blanca para la cabecera */
+}
+
+.custom-table tbody tr {
+    border-bottom: 1px solid #505076cd; /* Línea blanca entre filas */
+}
+
+.custom-table tbody tr:last-child {
+    border-bottom: 1px solid #505076;
+}
+.titulo3 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.box-3 {
+    margin-left: 350px;
+    width: 25vh; /* Tamaño deseado para cada caja */
+    height: 50px;
+    border-radius: 15px;
+    background-color: #181a32;
+    border: 0.5px solid #50507685;
+    box-shadow: 0px 10px 30px #5050767d;
+}
+.titulo4 {
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.filtros {
+    background-color: #393a68;
+    height: 60px;
+    width: 160vh;
+}

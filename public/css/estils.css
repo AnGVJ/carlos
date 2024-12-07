@@ -1,0 +1,8 @@
+body {
+    min-height: 95vh;
+    background-image: url("../images/fondoinicio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}

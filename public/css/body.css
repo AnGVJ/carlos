@@ -1,0 +1,325 @@
+body {
+    background-color: #060528;
+    margin: 0; /* Eliminar márgenes del body */
+    padding-left: 200px; /* Añadir espacio al contenido principal para el menú */
+}
+
+.menu {
+    position: fixed; /* Fijar el menú en la izquierda */
+    top: 0;
+    left: 0;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    width: 200px; /* Ancho del menú */
+    /* Fondo del menú */
+    border-right: 1px solid #505076; /* Borde derecho del menú */
+    color: white;
+    padding: 20px;
+}
+
+.menudentro {
+    margin-top: 20px;
+}
+
+.logo {
+    width: 95%;
+    margin-left: 5%;
+}
+
+.linea {
+    width: 100%; /* Ancho total */
+    height: 1px; /* Grosor de la línea */
+    background-color: #ffffff; /* Color de la línea */
+    margin: 30px 0; /* Espacio arriba y abajo de la línea */
+}
+
+ul {
+    padding: 0;
+}
+
+.item-link {
+    display: flex; /* Usar flexbox para alinear los elementos */
+    align-items: center; /* Alinear verticalmente el texto y la imagen */
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.icono {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    margin-top: -10px;
+}
+.icono1 {
+    width: 28px;
+    height: 40px;
+    margin-right: 5px; /* Espacio entre la imagen y el texto */
+    margin-top: 1px;
+}
+
+.icono2 {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    margin-top: -7px;
+}
+
+.item-link:hover {
+    background-color: #2e2f56;
+}
+.Ayuda {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    margin-top: 11vh;
+    margin-bottom: 70px;
+    font-weight: 300;
+}
+.item-link.active {
+    background-color: #3b3d82; /* Cambia este valor al color de fondo que prefieras */
+    color: white; /* Asegura que el texto sea legible */
+}
+.navbar {
+    margin-left: auto;
+    width: 99%;
+    background-color: #181a32 !important;
+    border: none;
+    height: 70px;
+}
+
+.navbar-text {
+    color: white; /* Cambia el color del texto de bienvenida */
+    font-weight: 400; /* Ajustar peso de fuente */
+    font-size: 1.2rem; /* Ajustar tamaño de fuente */
+}
+
+.nav-link {
+    color: white; /* Cambia el color de los enlaces */
+}
+
+.nav-link:hover {
+    color: #ddd; /* Color de los enlaces al pasar el mouse */
+}
+
+.vr {
+    border-left: 1px solid white; /* Línea vertical blanca */
+    height: 50px;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+.search-form .form-control {
+    background-color: #181a32; /* Fondo del input */
+    border: 0.5px solid #ffffff6e; /* Color del borde */
+    color: white; /* Color del texto */
+    width: 300px; /* Aumenta o reduce este valor para hacerlo más largo */
+    height: 30px;
+    text-align: center;
+    margin-top: -5px;
+    padding-left: 35px; /* Espacio a la izquierda para el ícono */
+}
+
+.search-form .form-control::placeholder {
+    color: #ffffff; /* Color del texto del placeholder */
+}
+
+.search-form .search-icon {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #393a68; /* Color del ícono */
+    font-size: 1.2em; /* Tamaño del ícono */
+}
+
+.search-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+.bi-bell {
+    margin-left: -10px;
+}
+.nav-dropdown-icon {
+    width: 10px;
+    height: 0;
+    border-left: 7px solid transparent; /* Espacio izquierdo */
+    border-right: 7px solid transparent; /* Espacio derecho */
+    border-top: 7px solid white; /* Color y tamaño del triángulo */
+    margin-left: -14vh; /* Espacio entre el texto y el triángulo */
+    display: inline-block; /* Asegúrate de que se alinee correctamente */
+}
+.container {
+    background-color: rgba(0, 255, 255, 0);
+    width: 70%;
+    height: 100%;
+    display: flex; /* Usar flexbox para el contenedor principal */
+    flex-direction: column; /* Colocar las cajas en columnas */
+    align-items: center; /* Centrar horizontalmente el contenido */
+    margin-top: 20px; /* Espacio superior para el contenedor */
+    margin-left: -0vh;
+}
+
+.yellow-boxes {
+    display: flex; /* Usar flexbox para la fila de cajas amarillas */
+    gap: 10px; /* Espacio entre las cajas amarillas */
+}
+
+.box {
+    width: 450px; /* Ancho de las cajas */
+    height: 150px; /* Alto de las cajas */
+    border-radius: 15px;
+    border: 1px solid #50507677;
+}
+
+.yellow {
+    background-color: #181a32; /* Color de fondo amarillo */
+    box-shadow: 0px 20px 30px #5050767d;
+}
+
+.red {
+    background-color: #181a32; /* Color de fondo rojo */
+    width: 100%;
+    height: 60vh;
+    margin-top: 10px; /* Espacio entre las cajas amarillas y la caja roja */
+    box-shadow: 0px 20px 30px #5050767d;
+}
+.container2 {
+    border: 1px solid #50507677;
+    position: relative;
+    float: left;
+    background-color: #181a32;
+    width: 40%;
+    height: 73vh;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se apilen de arriba a abajo */
+    justify-content: flex-start; /* Alineación en la parte superior */
+    align-items: center; /* Centra horizontalmente el contenido */
+    margin-top: -73vh;
+    text-align: center;
+    left: 90vh;
+    border-radius: 15px;
+    box-shadow: 0px 20px 30px #5050767d;
+}
+.btncrear {
+    background-color: #060528;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    float: left;
+    margin-top: 20px;
+    width: 25vh;
+    height: 110px;
+    margin-left: 20px;
+}
+
+.btnsubir {
+    text-align: center;
+    background-color: #ffffff00;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    float: right;
+    margin-top: 20px;
+    width: 27vh;
+    position: relative;
+    height: 110px;
+    margin-right: 25px;
+}
+
+.imagenbo {
+    background-size: cover; /* Ajusta la imagen para que se muestre completa */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el botón */
+    width: 200px;
+    margin-left: -8px;
+    height: 132px;
+    margin-top: -12px;
+}
+
+.archivos {
+    font-size: 15px;
+    font-size: 10px;
+}
+.subir {
+    margin-top: -105px;
+    font-size: 15px;
+}
+.iconoexcel {
+    width: 60px;
+    height: 50px;
+}
+.icon-container {
+    margin-top: -60px;
+}
+
+.iconoperfil {
+    width: 150px;
+    height: 150px;
+}
+
+.datos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    align-items: center; /* Centrado horizontal */
+    gap: 5px; /* Espacio entre los elementos */
+}
+
+.datos span {
+    color: white;
+}
+
+.Herramientas,
+.Materiales,
+.Manodeobra {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #50507677;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+}
+.containergr {
+    margin-left: 5px;
+    margin-top: -10px;
+    display: flex; /* Establece un contenedor flexible */
+    justify-content: space-between; /* Espacio entre los elementos, uno a la izquierda y otro a la derecha */
+    width: 100%; /* O el tamaño que necesites */
+    height: 65px;
+    padding: 5px; /* Espaciado interno */
+}
+
+.leftgr {
+    width: 35%; /* O el tamaño que desees para el div izquierdo */
+    background-color: lightblue; /* Color de fondo opcional */
+}
+
+.rightgr {
+    margin-right: 10px;
+    width: 60%; /* O el tamaño que desees para el div derecho */
+    background-color: lightcoral; /* Color de fondo opcional */
+}
+
+.tituloherr,
+.titulomat,
+.titulomano {
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.filtros {
+    margin-top: 10px;
+    background-color: red;
+    height: 60px;
+}
+.buscador {
+    background-color: yellow;
+    height: 40px;
+}
+.tablita {
+    background-color: blue;
+    height: 43vh;
+}
